@@ -1,6 +1,17 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Contact: mailto:admin@sehati.cafe
 Expires: 2025-01-01T00:00:00.000Z
 Acknowledgments: https://sehati.cafe
 Preferred-Languages: en, id
 Canonical: https://sehati.cafe/.well-known/security.txt
 Policy: https://sehati.cafe
+Encryption: https://sehati.cafe/.well-known/key.asc
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQf7VlY3WqRDR6r9oR3KEVGL4WH/QUCZhO75wAKCRB3KEVGL4WH
+/eM1AQDWbkBXa09qwTdjw+3YcgW3El7J2wH6k2ZBUcazCN5SlQD+LLxgdlc6UzJh
+62DAUgvO1AwDJkqo7Xx4A69mo2zXpQY=
+=e7WF
+-----END PGP SIGNATURE-----

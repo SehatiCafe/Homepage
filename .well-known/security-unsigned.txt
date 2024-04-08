@@ -1,0 +1,7 @@
+Contact: mailto:admin@sehati.cafe
+Expires: 2025-01-01T00:00:00.000Z
+Acknowledgments: https://sehati.cafe
+Preferred-Languages: en, id
+Canonical: https://sehati.cafe/.well-known/security.txt
+Policy: https://sehati.cafe
+Encryption: https://sehati.cafe/.well-known/key.asc
