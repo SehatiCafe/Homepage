@@ -64,10 +64,6 @@
   <meta name="application-name" content="Sehati Cafe">
   <meta name="msapplication-TileColor" content="#2b5797">
   <meta name="theme-color" content="#ffffff">
-
-  <!-- Lazy Load -->
-  <script defer type="text/javascript" src="js/lozad.min.js"></script> <!-- Should be in <head> but blocking score -->
-
 </head>
 
 <body>
@@ -484,6 +480,7 @@
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!-- Lazy Load -->
+  <script type="text/javascript" src="js/lozad.min.js"></script> <!-- Should be in <head> but blocking score -->
   <script>
     const observer = lozad(); // lazy loads elements with default selector as '.lozad'
     observer.observe();
