@@ -490,12 +490,26 @@
   <script defer src='https://sehati.cafe/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js' data-cf-beacon='{"token": "5f228415d85241898485eed0e3d83ccf"}' integrity="sha384-T2ddkCz5CkncN4eF0qeZjkcy8ssIrwvXkBPQLQ6ODPRwR0welmHC9tRj447eLGEN" crossorigin="anonymous"></script>
   <!-- End Cloudflare Web Analytics -->
 
-  <script src="OneSignalSDK.page.js" integrity="sha384-nC75x2MbLMq3/QrDZRHEvlOrxCrXwOTJEtx8uiikpi9KD7cCk/ys6UcyMe3TRMww" crossorigin="anonymous" defer></script>
+  <!-- <script src="OneSignalSDK.page.js" integrity="sha384-nC75x2MbLMq3/QrDZRHEvlOrxCrXwOTJEtx8uiikpi9KD7cCk/ys6UcyMe3TRMww" crossorigin="anonymous" defer></script>
   <script>
     window.OneSignalDeferred = window.OneSignalDeferred || [];
     OneSignalDeferred.push(function(OneSignal) {
       OneSignal.init({
         appId: "2f23d2d2-2051-40e4-a886-881f98520ff5",
+      });
+    });
+  </script> -->
+
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(function(OneSignal) {
+      OneSignal.init({
+        appId: "2f23d2d2-2051-40e4-a886-881f98520ff5",
+        safari_web_id: "web.onesignal.auto.14c30330-c4fb-483f-9c66-942ad147f917",
+        notifyButton: {
+          enable: true,
+        },
       });
     });
   </script>
